@@ -1,0 +1,19 @@
+body{
+    color:red;
+}
+h1{
+    color:blue;
+}
+h2{
+    color:green;
+}
+
+/* to style the particular element using id */
+#lib-header{
+    color: grey;
+}
+
+/* to style the element with class attribute */
+.para{
+    color:darkmagenta;
+}
