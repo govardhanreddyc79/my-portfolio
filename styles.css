@@ -20,9 +20,17 @@ h2{
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+:root {
+    --primary-color:#00BFA6;
+}
+
 body {
     font-family: 'Montserrat',
     sans-serif;
+}
+
+hr {
+    margin: 2rem 0rem;
 }
 
 /* Containers */
@@ -34,5 +42,24 @@ body {
 .centered-container {
     max-width:600px;
     margin: auto;
+}
+
+/* Links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color)
 }
 
