@@ -24,6 +24,7 @@ h2{
     --primary-color:#00BFA6;
     --dark-gray: #6B7280;
     --dark-red: darkred;
+    --ow:#F3F4F6;
 }
 
 body {
@@ -110,4 +111,17 @@ hr {
 }
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+
+/* Section */
+
+.section {
+    padding: 1rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+.ow {
+    background-color: var(--ow);
 }
