@@ -30,6 +30,7 @@ h2{
 body {
     font-family: 'Montserrat',
     sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -107,6 +108,7 @@ hr {
     margin: auto;
 }
 .hero .hero-heading {
+    text-align: center;
     color: var(--dark-gray);
 }
 .hero .hero-heading .heading-inverted {
@@ -124,4 +126,19 @@ hr {
 }
 .ow {
     background-color: var(--ow);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    border-top-right-radius: 0.5rem ;
+}
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+.footer .ul {
+    padding-inline-start: 0px;
 }
