@@ -106,6 +106,7 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+    padding-top: 2rem;
 }
 .hero .hero-heading {
     text-align: center;
