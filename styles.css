@@ -1,27 +1,8 @@
-/* body{
-    color:red;
-}
-h1{
-    color:blue;
-}
-h2{
-    color:green;
-} */
-
-/* to style the particular element using id */
-/* #lib-header{
-    color: grey;
-} */
-
-/* to style the element with class attribute */
-/* .para{
-    color:yellowgreen;
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 :root {
-    --primary-color:#00BFA6;
+    /* --primary-color:#00BFA6; */
+    --primary-color:#EF4444;
     --dark-gray: #6B7280;
     --dark-red: white;
     --ow:#F3F4F6;
