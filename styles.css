@@ -4,7 +4,7 @@
     /* --primary-color:#00BFA6; */
     --primary-color:#EF4444;
     --dark-gray: #6B7280;
-    --dark-red: white;
+    --white: white;
     --ow:#F3F4F6;
 }
 
@@ -34,6 +34,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    color: var(--white);
 }
 
 .link-primary {
@@ -60,7 +61,7 @@ hr {
 /* NAV */
 .navigation {
     background-color: var(--primary-color);
-    color:var(--dark-red);
+    color:var(--white);
     border-bottom-left-radius: 0.5rem ;
     padding: 0.3rem;
 }
@@ -70,7 +71,7 @@ hr {
     font-size: 1.1rem;
 }
 .navigation .link {
-    color:var(--dark-red);
+    color:var(--white);
 }
 .navigation .link-active {
     font-weight: bold;
@@ -120,7 +121,7 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
-    color: var(--dark-red);
+    color: var(--white);
 }
 .footer .ul {
     padding-inline-start: 0px;
