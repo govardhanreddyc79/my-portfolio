@@ -11,7 +11,9 @@
 body {
     font-family: 'Montserrat',
     sans-serif;
-    margin: 0px;
+    margin: 0px auto;
+    width: 85%;
+    max-width: 85%;
 }
 
 hr {
@@ -25,7 +27,7 @@ hr {
 }
 
 .centered-container {
-    max-width:600px;
+    max-width:900px;
     margin: auto;
 }
 
@@ -39,14 +41,16 @@ hr {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color:white;
+    margin: 0rem 0.5rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
+    margin: 0rem 0.5rem;
 }
 
 /* Lists */
@@ -101,14 +105,23 @@ hr {
 /* Section */
 
 .section {
-    padding: 3rem;
+    padding: 1rem;
+    width: 85%;
+    margin:2rem auto;
+    text-align: center;
 }
 
 .section h1 {
     text-align: center;
+    padding: 0rem;
+    margin: 0.5rem;
 }
 .ow {
     background-color: var(--ow);
+    border-radius: 2rem;
+    width: 85%;
+    margin:2rem auto;
+    text-align: center;
 }
 
 /* Footer */
@@ -117,6 +130,7 @@ hr {
     text-align: center;
     padding: 2rem;
     border-top-right-radius: 0.5rem ;
+    margin: auto;
 }
 .footer .footer-header {
     font-weight: bold;
@@ -130,6 +144,12 @@ hr {
 /** projects **/
 .showcase-list {
     padding: 2rem;
+    text-align: center;
+    max-width: 2rem auto;
+}
+.showcase-list p {
+    font-weight: normal;
+    padding-bottom: 1rem;
 }
 
 /** blogs **/
