@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
 :root {
     /* --primary-color:#00BFA6; */
     --primary-color:#EF4444;
@@ -159,4 +160,16 @@ hr {
 
 .div-small {
     text-align: center;
+}
+
+.blog-content {
+    font-family:'Source Sans Pro', sans-serif;;
+    max-width: 700px ;
+    font-size: large;
+}
+.blog-content span {
+    font-weight: bold;
+}
+.blog-content .formula {
+    margin-left: 10rem;
 }
