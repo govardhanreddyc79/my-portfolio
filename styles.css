@@ -161,15 +161,3 @@ hr {
 .div-small {
     text-align: center;
 }
-
-.blog-content {
-    font-family:'Source Sans Pro', sans-serif;;
-    max-width: 700px ;
-    font-size: large;
-}
-.blog-content span {
-    font-weight: bold;
-}
-.blog-content .formula {
-    margin-left: 10rem;
-}
