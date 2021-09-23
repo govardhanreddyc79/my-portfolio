@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
 :root {
-    /* --primary-color:#00BFA6; */
     --primary-color:#EF4444;
     --dark-gray: #6B7280;
     --white: white;
@@ -21,7 +19,6 @@ hr {
     margin: 2rem 0rem;
 }
 
-/* Containers */
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -32,7 +29,6 @@ hr {
     margin: auto;
 }
 
-/* Links */
 
 .link {
     text-decoration: none;
@@ -54,7 +50,6 @@ hr {
     margin: 0rem 0.5rem;
 }
 
-/* Lists */
 .list-non-bullet {
     list-style: none;
 }
@@ -63,7 +58,7 @@ hr {
     padding: 0rem 0.5rem;
 }
 
-/* NAV */
+
 .navigation {
     background-color: var(--primary-color);
     color:var(--white);
@@ -85,7 +80,6 @@ hr {
     text-align: right;
 }
 
-/* header */
 .hero {
     padding: 2rem;
 }
@@ -103,7 +97,6 @@ hr {
     color: var(--primary-color);
 }
 
-/* Section */
 
 .section {
     padding: 1rem;
@@ -125,7 +118,6 @@ hr {
     text-align: center;
 }
 
-/* Footer */
 .footer {
     background-color: var(--primary-color);
     text-align: center;
@@ -142,7 +134,7 @@ hr {
     padding-inline-start: 0px;
 }
 
-/** projects **/
+
 .showcase-list {
     padding: 2rem;
     text-align: center;
@@ -153,7 +145,6 @@ hr {
     padding-bottom: 1rem;
 }
 
-/** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
 }
